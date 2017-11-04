@@ -1,0 +1,40 @@
+body{
+    font-family: "Comic Sans MS";
+    background: #ece9bfad;
+}
+
+@font-face {
+    font-family: "Comic Sans MS"; /* Имя шрифта */
+    src: url(./comic.ttf); /* Путь к файлу со шрифтом */
+ }
+
+ #clear{
+    font-family: "Comic Sans MS";
+    font-size: 30px;
+    color: rgb(159, 197, 159);
+ }
+
+
+canvas{
+    box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
+    display: inline-block;
+    background: #fafafaa8;
+}
+
+#can-small{
+    width: 300px;
+    height: 300px;
+    image-rendering: pixelated;
+    display: none;
+}
+
+.can-wrap{
+    padding-top: 80px;
+    text-align: center;
+}
+
+#answer{
+    margin: 40px;
+    color:rgb(107, 48, 33);
+    font-size: 30px;
+}
